@@ -1,0 +1,84 @@
+﻿Build started 11-02-2015 13:22:21.
+     1>Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\myRelease-x64\\" /Fd"x64\myRelease-x64\vc120.pdb" /Gd /TP /errorReport:prompt CBackupState.cpp CComException.cpp CCopyAction.cpp CCopyFilter.cpp CDeleteAction.cpp CDirectoryAction.cpp CFilespecCopyFilter.cpp CVSSCopyException.cpp CIncludeAllCopyFilter.cpp CModifiedSinceCopyFilter.cpp Console.cpp COptions.cpp CParseOptionsException.cpp CWriter.cpp CWriterComponent.cpp VssCopy.cpp OutputWriter.cpp stdafx.cpp Utilities.cpp
+         CBackupState.cpp
+     1>CBackupState.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         CComException.cpp
+     1>e:\projects\freelancer\vss\volume shadow copy\volume shadow copy\source code\vsscopy\CComException.h(38): error C2664: 'void ATL::CSimpleStringT<TCHAR,false>::Append(const ATL::CSimpleStringT<TCHAR,false> &)' : cannot convert argument 1 from 'WCHAR *' to 'const char *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         CCopyAction.cpp
+     1>CCopyAction.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         CCopyFilter.cpp
+     1>CCopyFilter.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         CDeleteAction.cpp
+     1>CDeleteAction.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         CDirectoryAction.cpp
+     1>CDirectoryAction.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         CFilespecCopyFilter.cpp
+         CVSSCopyException.cpp
+         CIncludeAllCopyFilter.cpp
+     1>CIncludeAllCopyFilter.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         CModifiedSinceCopyFilter.cpp
+     1>CModifiedSinceCopyFilter.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         Console.cpp
+     1>Console.cpp(1): fatal error C1083: Cannot open include file: 'stdafx.h': No such file or directory
+         COptions.cpp
+     1>e:\projects\freelancer\vss\volume shadow copy\volume shadow copy\source code\vsscopy\COptions.h(254): error C2664: 'std::basic_regex<wchar_t,std::regex_traits<wchar_t>>::basic_regex(std::basic_regex<wchar_t,std::regex_traits<wchar_t>> &&) throw()' : cannot convert argument 1 from 'const char *' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         CParseOptionsException.cpp
+         CWriter.cpp
+         CWriterComponent.cpp
+         VssCopy.cpp
+     1>e:\projects\freelancer\vss\volume shadow copy\volume shadow copy\source code\vsscopy\CComException.h(38): error C2664: 'void ATL::CSimpleStringT<TCHAR,false>::Append(const ATL::CSimpleStringT<TCHAR,false> &)' : cannot convert argument 1 from 'WCHAR *' to 'const char *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>e:\projects\freelancer\vss\volume shadow copy\volume shadow copy\source code\vsscopy\COptions.h(254): error C2664: 'std::basic_regex<wchar_t,std::regex_traits<wchar_t>>::basic_regex(std::basic_regex<wchar_t,std::regex_traits<wchar_t>> &&) throw()' : cannot convert argument 1 from 'const char *' to 'const wchar_t *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>e:\projects\freelancer\vss\volume shadow copy\volume shadow copy\source code\vsscopy\CBackupState.h(195): error C2665: 'OutputWriter::WriteLine' : none of the 2 overloads could convert all the argument types
+                 e:\projects\freelancer\vss\volume shadow copy\volume shadow copy\source code\vsscopy\OutputWriter.h(49): could be 'void OutputWriter::WriteLine(LPCTSTR)'
+                 while trying to match the argument list '(BSTR)'
+     1>VssCopy.cpp(229): error C2664: 'CVSSCopyException::CVSSCopyException(const CVSSCopyException &)' : cannot convert argument 1 from 'const wchar_t [36]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>VssCopy.cpp(257): error C2664: 'void CWriter::set_Name(ATL::CString)' : cannot convert argument 1 from 'BSTR' to 'ATL::CString'
+                 Constructor for class 'ATL::CStringT<char,ATL::StrTraitATL<char,ATL::ChTraitsCRT<char>>>' is declared 'explicit'
+     1>VssCopy.cpp(262): error C2440: 'type cast' : cannot convert from 'ATL::CComBSTR' to 'LPCTSTR'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>VssCopy.cpp(295): error C2664: 'void CWriterComponent::set_LogicalPath(ATL::CString)' : cannot convert argument 1 from 'const BSTR' to 'ATL::CString'
+                 Constructor for class 'ATL::CStringT<char,ATL::StrTraitATL<char,ATL::ChTraitsCRT<char>>>' is declared 'explicit'
+     1>VssCopy.cpp(298): error C2664: 'void CWriterComponent::set_Name(ATL::CString)' : cannot convert argument 1 from 'const BSTR' to 'ATL::CString'
+                 Constructor for class 'ATL::CStringT<char,ATL::StrTraitATL<char,ATL::ChTraitsCRT<char>>>' is declared 'explicit'
+     1>VssCopy.cpp(378): error C2664: 'BOOL GetVolumePathNameA(LPCSTR,LPSTR,DWORD)' : cannot convert argument 2 from 'WCHAR [260]' to 'LPSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>VssCopy.cpp(420): error C2664: 'HRESULT IVssBackupComponents::AddComponent(VSS_ID,VSS_ID,VSS_COMPONENT_TYPE,LPCWSTR,LPCWSTR)' : cannot convert argument 4 from 'ATL::CString' to 'LPCWSTR'
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>VssCopy.cpp(493): error C2664: 'CVSSCopyException::CVSSCopyException(const CVSSCopyException &)' : cannot convert argument 1 from 'const wchar_t [22]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>VssCopy.cpp(510): error C2664: 'void CalculateSourcePath(LPCTSTR,LPCTSTR,LPCTSTR,ATL::CString &)' : cannot convert argument 1 from 'VSS_PWSZ' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>VssCopy.cpp(769): error C2664: 'bool Utilities::AreEqual(LPCTSTR,LPCTSTR)' : cannot convert argument 2 from 'const wchar_t [2]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>VssCopy.cpp(769): error C2664: 'bool Utilities::AreEqual(LPCTSTR,LPCTSTR)' : cannot convert argument 2 from 'const wchar_t [3]' to 'LPCTSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>VssCopy.cpp(857): error C2784: 'bool std::regex_match(const std::basic_string<_Elem,_StTraits,_StAlloc> &,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : could not deduce template argument for 'const std::basic_string<_Elem,_StTraits,_StAlloc> &' from 'const char *'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\regex(2762) : see declaration of 'std::regex_match'
+     1>VssCopy.cpp(857): error C2780: 'bool std::regex_match(const std::basic_string<_Elem,_StTraits,_StAlloc> &,std::match_results<basic_string<_Elem,_StTraits,_StAlloc>::const_iterator,_Alloc> &,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : expects 4 arguments - 2 provided
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\regex(2746) : see declaration of 'std::regex_match'
+     1>VssCopy.cpp(857): error C2780: 'bool std::regex_match(const _Elem *,std::match_results<const _Elem*,_Alloc> &,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : expects 4 arguments - 2 provided
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\regex(2730) : see declaration of 'std::regex_match'
+     1>VssCopy.cpp(857): error C2782: 'bool std::regex_match(const _Elem *,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : template parameter '_Elem' is ambiguous
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\regex(2716) : see declaration of 'std::regex_match'
+                 could be 'wchar_t'
+                 or       'CHAR'
+     1>VssCopy.cpp(857): error C2780: 'bool std::regex_match(_BidIt,_BidIt,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : expects 4 arguments - 2 provided
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\regex(2704) : see declaration of 'std::regex_match'
+     1>VssCopy.cpp(857): error C2780: 'bool std::regex_match(_BidIt,_BidIt,std::match_results<_BidIt,_Alloc> &,const std::basic_regex<_Elem,_RxTraits> &,std::regex_constants::match_flag_type)' : expects 5 arguments - 2 provided
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\regex(2691) : see declaration of 'std::regex_match'
+         OutputWriter.cpp
+         stdafx.cpp
+         Utilities.cpp
+         Generating Code...
+     1>Done Building Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:09.45

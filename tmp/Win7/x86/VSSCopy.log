@@ -1,0 +1,59 @@
+﻿Build started 06-02-2015 16:29:07.
+     1>Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinc\winxp /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"tmp\Win7\x86\VSSCopy.pch" /Fo"tmp\Win7\x86\\" /Fd"tmp\Win7\x86\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iinc\winxp /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"tmp\Win7\x86\VSSCopy.pch" /Fo"tmp\Win7\x86\\" /Fd"tmp\Win7\x86\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CBackupState.cpp CComException.cpp CCopyAction.cpp CCopyFilter.cpp CDeleteAction.cpp CDirectoryAction.cpp CFilespecCopyFilter.cpp CVSSCopyException.cpp CIncludeAllCopyFilter.cpp CModifiedSinceCopyFilter.cpp Console.cpp COptions.cpp CParseOptionsException.cpp CWriter.cpp CWriterComponent.cpp VssCopy.cpp OutputWriter.cpp Utilities.cpp
+         Utilities.cpp
+         OutputWriter.cpp
+         VssCopy.cpp
+     1>e:\projects\freelancer\vss\volume shadow copy\volume shadow copy\source code\vsscopy\vsscopy.cpp(100): warning C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(581) : see declaration of 'wscanf'
+     1>e:\projects\freelancer\vss\volume shadow copy\volume shadow copy\source code\vsscopy\vsscopy.cpp(103): warning C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(581) : see declaration of 'wscanf'
+     1>e:\projects\freelancer\vss\volume shadow copy\volume shadow copy\source code\vsscopy\vsscopy.cpp(106): warning C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(581) : see declaration of 'wscanf'
+         CWriterComponent.cpp
+         CWriter.cpp
+         CParseOptionsException.cpp
+         COptions.cpp
+         Console.cpp
+         CModifiedSinceCopyFilter.cpp
+         CIncludeAllCopyFilter.cpp
+         CVSSCopyException.cpp
+         CFilespecCopyFilter.cpp
+         CDirectoryAction.cpp
+         CDeleteAction.cpp
+         CCopyFilter.cpp
+         CCopyAction.cpp
+         CComException.cpp
+         CBackupState.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Win7\x86\VSSCopy.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\WinDDK\7600.16385.1\lib\ATL\i386 vss_uuid.lib vssapi.lib msxml2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:app.manifest /DEBUG /PDB:"bin\Win7\x86\VSSCopy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\Win7\x86\VSSCopy.lib" /MACHINE:X86 /SAFESEH tmp\Win7\x86\CBackupState.obj
+         tmp\Win7\x86\CComException.obj
+         tmp\Win7\x86\CCopyAction.obj
+         tmp\Win7\x86\CCopyFilter.obj
+         tmp\Win7\x86\CDeleteAction.obj
+         tmp\Win7\x86\CDirectoryAction.obj
+         tmp\Win7\x86\CFilespecCopyFilter.obj
+         tmp\Win7\x86\CVSSCopyException.obj
+         tmp\Win7\x86\CIncludeAllCopyFilter.obj
+         tmp\Win7\x86\CModifiedSinceCopyFilter.obj
+         tmp\Win7\x86\Console.obj
+         tmp\Win7\x86\COptions.obj
+         tmp\Win7\x86\CParseOptionsException.obj
+         tmp\Win7\x86\CWriter.obj
+         tmp\Win7\x86\CWriterComponent.obj
+         tmp\Win7\x86\VssCopy.obj
+         tmp\Win7\x86\OutputWriter.obj
+         tmp\Win7\x86\stdafx.obj
+         tmp\Win7\x86\Utilities.obj
+     1>CBackupState.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>VssCopy.obj : error LNK2019: unresolved external symbol "long __stdcall CreateVssBackupComponents(class IVssBackupComponents * *)" (?CreateVssBackupComponents@@YGJPAPAVIVssBackupComponents@@@Z) referenced in function _wmain
+     1>bin\Win7\x86\VSSCopy.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.05

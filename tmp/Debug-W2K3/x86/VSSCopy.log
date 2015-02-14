@@ -1,0 +1,36 @@
+﻿Build started 6/18/2012 3:02:08 PM.
+     1>Project "C:\Users\user\Desktop\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "tmp\Debug-W2K3\x86\VSSCopy.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug-W2K3\x86\VSSCopy.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib\win2003\obj\i386 vss_uuid.lib vssapi.lib msxml2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"tmp\Debug-W2K3\x86\VSSCopy.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"C:\Users\user\Desktop\Volume Shadow Copy\Source Code\VSSCopy\bin\Debug-W2K3\x86\VSSCopy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\Debug-W2K3\x86\VSSCopy.lib" /MACHINE:X86 "tmp\Debug-W2K3\x86\VSSCopy.exe.embed.manifest.res"
+         "tmp\Debug-W2K3\x86\CBackupState.obj"
+         "tmp\Debug-W2K3\x86\CComException.obj"
+         "tmp\Debug-W2K3\x86\CCopyAction.obj"
+         "tmp\Debug-W2K3\x86\CCopyFilter.obj"
+         "tmp\Debug-W2K3\x86\CDeleteAction.obj"
+         "tmp\Debug-W2K3\x86\CDirectoryAction.obj"
+         "tmp\Debug-W2K3\x86\CFilespecCopyFilter.obj"
+         "tmp\Debug-W2K3\x86\CVSSCopyException.obj"
+         "tmp\Debug-W2K3\x86\CIncludeAllCopyFilter.obj"
+         "tmp\Debug-W2K3\x86\CModifiedSinceCopyFilter.obj"
+         "tmp\Debug-W2K3\x86\Console.obj"
+         "tmp\Debug-W2K3\x86\COptions.obj"
+         "tmp\Debug-W2K3\x86\CParseOptionsException.obj"
+         "tmp\Debug-W2K3\x86\CWriter.obj"
+         "tmp\Debug-W2K3\x86\CWriterComponent.obj"
+         "tmp\Debug-W2K3\x86\VssCopy.obj"
+         "tmp\Debug-W2K3\x86\OutputWriter.obj"
+         "tmp\Debug-W2K3\x86\stdafx.obj"
+         "tmp\Debug-W2K3\x86\Utilities.obj"
+     1>LINK : fatal error LNK1104: cannot open file 'atlsd.lib'
+     1>Done Building Project "C:\Users\user\Desktop\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.63

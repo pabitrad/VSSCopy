@@ -1,0 +1,20 @@
+﻿Build started 6/19/2012 2:07:10 PM.
+     1>Project "C:\Users\user\Desktop\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "tmp\Release-XP\x86\VSSCopy.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         VSSCopy.vcxproj -> C:\Users\user\Desktop\Volume Shadow Copy\Source Code\VSSCopy\bin\Release-XP\x86\VSSCopy.exe
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "tmp\Release-XP\x86\VSSCopy.unsuccessfulbuild".
+         Touching "tmp\Release-XP\x86\VSSCopy.lastbuildstate".
+     1>Done Building Project "C:\Users\user\Desktop\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.46

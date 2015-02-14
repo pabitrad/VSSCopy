@@ -1,0 +1,8 @@
+﻿Build started 11-02-2015 13:16:47.
+     1>Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets(61,5): error MSB8013: This project doesn't contain the Configuration and Platform combination of Release|x64.
+     1>Done Building Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.00
