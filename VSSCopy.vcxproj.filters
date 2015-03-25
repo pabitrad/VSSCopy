@@ -72,6 +72,9 @@
     <ClCompile Include="VssCopy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BackUpJob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CBackupState.h">
@@ -129,6 +132,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\ASAP\ASAP\ASAP\ASAP\CDirectoryAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackUpJob.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

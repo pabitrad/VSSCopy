@@ -113,6 +113,7 @@
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-XP|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -131,7 +132,7 @@
     <UseOfAtl>Static</UseOfAtl>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v120</PlatformToolset>
-    <UseOfMfc>false</UseOfMfc>
+    <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -456,10 +457,11 @@
     <ClCompile>
       <AdditionalIncludeDirectories>inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN64;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ShowIncludes>false</ShowIncludes>
     </ClCompile>
     <Link>
       <AdditionalDependencies>vss_uuid.lib;vssapi.lib;msxml2.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -591,6 +593,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BackUpJob.cpp" />
     <ClCompile Include="CBackupState.cpp" />
     <ClCompile Include="CComException.cpp" />
     <ClCompile Include="CCopyAction.cpp" />
@@ -626,6 +629,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\ASAP\ASAP\ASAP\ASAP\CDirectoryAction.h" />
+    <ClInclude Include="BackUpJob.h" />
     <ClInclude Include="CBackupState.h" />
     <ClInclude Include="CComException.h" />
     <ClInclude Include="CCopyAction.h" />

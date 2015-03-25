@@ -1,5 +1,48 @@
-﻿Build started 14-02-2015 14:47:30.
+﻿Build started 02-03-2015 13:25:17.
+     1>Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Iinc /Zi /nologo /W3 /WX- /Od /D WIN64 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"tmp\Debug\x64\VSSCopy.pch" /Fo"tmp\Debug\x64\\" /Fd"tmp\Debug\x64\vc120.pdb" /Gd /TP /errorReport:prompt VssCopy.cpp
+         VssCopy.cpp
+     1>VssCopy.cpp(42): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(1042) : see declaration of 'wcscpy'
+     1>VssCopy.cpp(77): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(1042) : see declaration of 'wcscpy'
+     1>VssCopy.cpp(128): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(1042) : see declaration of 'wcscpy'
+     1>VssCopy.cpp(134): warning C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(581) : see declaration of 'wscanf'
+     1>VssCopy.cpp(137): warning C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(581) : see declaration of 'wscanf'
+     1>VssCopy.cpp(146): warning C4996: 'wscanf': This function or variable may be unsafe. Consider using wscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(581) : see declaration of 'wscanf'
+     1>VssCopy.cpp(179): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(1042) : see declaration of 'wcscpy'
+     1>VssCopy.cpp(180): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wchar.h(1042) : see declaration of 'wcscpy'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\x64\VSSCopy.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib\winxp\obj\amd64 vss_uuid.lib vssapi.lib msxml2.lib /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:app.manifest /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"bin\Debug\x64\VSSCopy.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"bin\Debug\x64\VSSCopy.lib" /MACHINE:X64 tmp\Debug\x64\BackUpJob.obj
+         tmp\Debug\x64\CBackupState.obj
+         tmp\Debug\x64\CComException.obj
+         tmp\Debug\x64\CCopyAction.obj
+         tmp\Debug\x64\CCopyFilter.obj
+         tmp\Debug\x64\CDeleteAction.obj
+         tmp\Debug\x64\CDirectoryAction.obj
+         tmp\Debug\x64\CFilespecCopyFilter.obj
+         tmp\Debug\x64\CVSSCopyException.obj
+         tmp\Debug\x64\CIncludeAllCopyFilter.obj
+         tmp\Debug\x64\CModifiedSinceCopyFilter.obj
+         tmp\Debug\x64\Console.obj
+         tmp\Debug\x64\COptions.obj
+         tmp\Debug\x64\CParseOptionsException.obj
+         tmp\Debug\x64\CWriter.obj
+         tmp\Debug\x64\CWriterComponent.obj
+         tmp\Debug\x64\VssCopy.obj
+         tmp\Debug\x64\OutputWriter.obj
+         tmp\Debug\x64\stdafx.obj
+         tmp\Debug\x64\Utilities.obj
+         VSSCopy.vcxproj -> E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\bin\Debug\x64\VSSCopy.exe
+     1>Done Building Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.07
+Time Elapsed 00:00:01.44

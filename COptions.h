@@ -105,10 +105,12 @@ public:
         {
             CString arg(argv[i]); 
             arg.MakeLower();
+			//cout << "argv" << i << arg << endl;
 
             if (Utilities::StartsWith(arg, TEXT("/")) || Utilities::StartsWith(arg, TEXT("-")))
             {
-                arg = arg.Mid(1);
+                //arg = arg.Mid(1);
+				arg.Remove('/');
 
                 if (arg.Compare(TEXT("full")) == 0)
                 {
@@ -152,7 +154,8 @@ public:
                 }
                 else if (arg.Compare(TEXT("recursive")) == 0 || arg.Compare(TEXT("r")) == 0)
                 {
-                    options._recursive = true; 
+                    options._recursive = true;
+					//wcout << _T("Recursive set");
                 }
                 else
                 {
@@ -178,13 +181,15 @@ public:
             }
         }
 
+		OutputWriter::WriteLine(TEXT("Outside if."));
+
         // Normalize paths to full paths
         options._source = NormalizePath(options._source); 
         options._destination = NormalizePath(options._destination); 
 
         if (!options._stateFile.IsEmpty())
         {
-            options._stateFile = NormalizePath(options._stateFile); 
+            options._stateFile = NormalizePath(options._stateFile);
         }
 
         return options; 
