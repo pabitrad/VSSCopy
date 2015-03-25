@@ -1,0 +1,11 @@
+﻿Build started 21-02-2015 15:05:07.
+     1>Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Iinc\win2003 /Zi /nologo /W3 /WX- /O2 /GL /D WIN64 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"tmp\Release-W2K3\x64\VSSCopy.pch" /Fo"tmp\Release-W2K3\x64\\" /Fd"tmp\Release-W2K3\x64\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\atlmfc\include\afx.h(24): fatal error C1189: #error :  Building MFC application with /MD[d] (CRT dll version) requires MFC shared dll version. Please #define _AFXDLL or do not use /MD[d]
+     1>Done Building Project "E:\Projects\Freelancer\VSS\Volume Shadow Copy\Volume Shadow Copy\Source Code\VSSCopy\VSSCopy.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.30

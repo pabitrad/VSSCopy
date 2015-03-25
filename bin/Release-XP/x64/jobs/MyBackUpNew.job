@@ -1,0 +1,8 @@
+type=Flat File Backup
+name=MyBackUpNew
+schedule=false
+logging=false
+email_logging=false
+path=E:\Data2
+saving_type=
+files=E:\\Data1
